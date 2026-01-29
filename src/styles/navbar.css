@@ -1,0 +1,55 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: white;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.logo-img {
+  height: 60px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: blue;
+  cursor: pointer;
+}
+
+/* Mobile menu hidden by default */
+.nav-links {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #020617;
+  list-style: none;
+  padding: 20px;
+  display: none;
+}
+
+.nav-links li {
+  margin-bottom: 16px;
+}
+
+/* When menu is open */
+.nav-links.open {
+  display: block;
+}
