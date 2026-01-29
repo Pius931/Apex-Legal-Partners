@@ -1,0 +1,51 @@
+.stats-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: white;
+}
+
+span {
+  color: blue;
+}
+
+/* Each stat box */
+.stat-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Small label text */
+.stat-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #5f5d46;
+  margin-bottom: 8px;
+}
+
+/* Big number */
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .stats-section {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .stat-card {
+    flex: 1;
+  }
+}
