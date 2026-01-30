@@ -1,0 +1,94 @@
+.firm-values {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #1a242f;
+}
+
+.values-intro {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.values-image {
+  width: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.values-text h2 {
+  color: #c5a059;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.values-text h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: white;
+  margin-top: 60px;
+}
+
+.values-text p {
+  max-width: 500px;
+  line-height: 1.6;
+  color: #b0b8c1;
+}
+
+.values-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.value-card {
+  padding: 24px;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+  margin-bottom: -50px;
+}
+
+.value-card h4 {
+  color: #f4efe6;
+}
+
+/* NEW: wrap icon + heading */
+.value-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  color: #b0b8c1;
+  margin-top: -10px;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+}
+
+.value-icon {
+  font-size: 1.8rem;
+  color: #c5a059;
+}
+
+.values-cta {
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.values-btn {
+  padding: 12px 28px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
