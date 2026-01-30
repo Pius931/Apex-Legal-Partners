@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import "../styles/navbar.css";
 import logo from "../assets/logo/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [Open, setOpen] = useState(false);
@@ -33,11 +34,21 @@ const Navbar = () => {
           </button>
 
           <ul className={`nav-links ${Open ? "open" : ""}`}>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Practice Areas</li>
-            <li>Attorneys/Team</li>
-            <li>Contact us</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
+            </li>
+            <li>
+              <Link to="/practice-areas">Practice Areas</Link>
+            </li>
+            <li>
+              <Link to="/team">Attorneys/Team</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact us</Link>
+            </li>
           </ul>
         </div>
       </nav>
