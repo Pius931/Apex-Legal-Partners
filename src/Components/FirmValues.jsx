@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCheckCircle, FaHistory, FaHeadset } from "react-icons/fa";
 import "../styles/FirmValues.css";
-import ceoImg from "../assets/images/ceo_img.png";
+import ceoImg from "../assets/images/Ceo_img.png";
 import { Link } from "react-router-dom";
 
 const FirmValues = () => {
