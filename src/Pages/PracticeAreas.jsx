@@ -8,29 +8,34 @@ const PracticeAreas = () => {
       <button className="back-btn" onClick={() => navigate("/")}>
         Home
       </button>
-      <section className="practice-hero">
-        <h1>Practice Areas</h1>
-        <p>
-          Comprehensive legal services tailored to individuals and businesses.
-        </p>
-      </section>
+      <main className="practice-areas">
+        <section className="practice-hero">
+          <h1>Our Practice Areas</h1>
+          <p>
+            We provide comprehensive legal services tailored to protect your
+            rights and achieve the best possible outcomes.
+          </p>
+        </section>
 
-      <section className="practice-list">
-        <div className="practice-item">
-          <h2>Corporate Law</h2>
-          <p>Advising businesses on compliance, governance, and growth.</p>
-        </div>
+        <section className="practice-list">
+          <div className="practice-card">
+            <h3>Corporate Law</h3>
+            <p>
+              Advising businesses on compliance, transactions, and governance.
+            </p>
+          </div>
 
-        <div className="practice-item">
-          <h2>Litigation</h2>
-          <p>Strategic representation in civil and commercial disputes.</p>
-        </div>
+          <div className="practice-card">
+            <h3>Litigation</h3>
+            <p>Strategic representation in complex disputes and court cases.</p>
+          </div>
 
-        <div className="practice-item">
-          <h2>Real Estate Law</h2>
-          <p>Legal support for property transactions and disputes.</p>
-        </div>
-      </section>
+          <div className="practice-card">
+            <h3>Real Estate Law</h3>
+            <p>Legal guidance for property transactions and development.</p>
+          </div>
+        </section>
+      </main>
     </div>
   );
 };
