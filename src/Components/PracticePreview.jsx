@@ -14,9 +14,9 @@ const PracticePreview = () => {
           </Link>
         </div>
 
-        <div className="practice-cards">
-          <div className="practice-card">
-            <div className="practice-icon">
+        <div className="practice-preview-cards">
+          <div className="practice-preview-card">
+            <div className="practice-preview-icon">
               <FaBriefcase size={40} />
             </div>
             <h3>Corporate Law</h3>
@@ -29,8 +29,8 @@ const PracticePreview = () => {
             </Link>
           </div>
 
-          <div className="practice-card">
-            <div className="practice-icon">
+          <div className="practice-preview-card">
+            <div className="practice-preview-icon">
               <FaGavel size={40} />
             </div>
             <h3>Litigation</h3>
@@ -43,8 +43,8 @@ const PracticePreview = () => {
             </Link>
           </div>
 
-          <div className="practice-card">
-            <div className="practice-icon">
+          <div className="practice-preview-card">
+            <div className="practice-preview-icon">
               <FaHome size={40} />
             </div>
             <h3>Real Estate Law</h3>
