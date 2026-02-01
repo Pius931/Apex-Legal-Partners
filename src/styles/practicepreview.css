@@ -88,10 +88,13 @@ h3 {
   transform: translateY(-4px);
   box-shadow: 0 10px 25px rgba(74, 16, 211, 0.4);
   border: 1px solid #2563eb;
+}
 
-  .practice-icon {
-    color: #2563eb;
-  }
+.practice-preview-icon {
+  color: #6792ee;
+}
+.practice-preview-card:hover .practice-preview-icon {
+  color: #1e40af;
 }
 
 /* Tablet */
