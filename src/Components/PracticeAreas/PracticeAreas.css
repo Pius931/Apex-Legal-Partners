@@ -1,0 +1,38 @@
+.practice-search {
+  padding: 2rem;
+}
+
+.practice-search input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+}
+
+.practice-cards {
+  display: grid;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.practice-card {
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.practice-card .icon {
+  font-size: 2rem;
+}
+
+.practice-cta {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
