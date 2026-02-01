@@ -8,12 +8,15 @@ const PracticeCTA = () => {
         <h2>Need Expert Legal Advice?</h2>
         <p>
           Speak with our experienced attorneys today and get the guidance you
-          deserve.
+          deserve. Our team of specialists is ready to discuss your case. Book a
+          free consultation today and take the first step towards a resolution.
         </p>
 
         <div className="cta-buttons">
           <button className="primary-btn">Book Free Consultation</button>
-          <button className="secondary-btn">+1 (234) 567-890</button>
+          <div className="secondary-btn-div">
+            <button className="secondary-btn"> +1 (234) 567-890</button>
+          </div>
         </div>
       </section>
     </div>

@@ -1,9 +1,41 @@
+.practice-areas-main-page {
+  background: #f4f5f7;
+}
+
+.practiceArea-Homebtn {
+  padding: 0.8em;
+
+  margin-top: 2em;
+  color: #1a2b3c;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 1em;
+  width: 20%;
+  cursor: pointer;
+}
+
+.practice-hero {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.practice-hero h1 {
+  color: #1a2b3c;
+  font-weight: bold;
+}
+
+.practice-hero p {
+  color: #4a4a4a;
+}
+
 .practice-search {
   padding: 2rem;
 }
 
 .practice-search input {
   width: 400px;
+  text-align: center;
 
   padding: 14px;
   font-size: 1rem;
@@ -16,19 +48,38 @@
 }
 
 .practice-card {
-  border: 1px solid #e5e7eb;
+  background: white;
+  border: 1px solid #e1e4e8;
   padding: 20px;
   border-radius: 8px;
 }
 
+.practice-card h3 {
+  color: #121212;
+}
+
+.practice-card p {
+  color: #4a4a4a;
+}
+
 .practice-card .icon {
   font-size: 2rem;
+  color: #c5a059;
+  background: #eecf9049;
+
+  border-radius: 5px;
+  padding: 10px 5px 5px 5px;
 }
 
 .practice-cta {
   padding: 3rem 2rem;
   text-align: center;
-  background: #f8fafc;
+  background: #0b55a0;
+}
+
+.practice-cta h2,
+p {
+  color: white;
 }
 
 .cta-buttons {
@@ -36,4 +87,34 @@
   gap: 16px;
   justify-content: center;
   margin-top: 20px;
+}
+
+.primary-btn {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #0b55a0;
+  border-radius: 10px;
+  border: none;
+}
+
+.secondary-btn {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.secondary-btn-div {
+  display: inline-block;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .practice-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

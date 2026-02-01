@@ -5,7 +5,10 @@ const PracticeSearch = () => {
   return (
     <div>
       <section className="practice-search">
-        <input type="text" placeholder="Search a certain legal service" />
+        <input
+          type="text"
+          placeholder="find a Specific legal service or speciality..."
+        />
       </section>
     </div>
   );
