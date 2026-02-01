@@ -14,9 +14,8 @@ const PracticeCTA = () => {
 
         <div className="cta-buttons">
           <button className="primary-btn">Book Free Consultation</button>
-          <div className="secondary-btn-div">
-            <button className="secondary-btn"> +1 (234) 567-890</button>
-          </div>
+
+          <button className="secondary-btn"> +1 (234) 567-890</button>
         </div>
       </section>
     </div>
