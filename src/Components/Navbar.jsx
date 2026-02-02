@@ -22,11 +22,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <img
-              src={logo}
-              alt="Apex Legal Partners Logo"
-              className="logo-img"
-            />
+            <Link to="/">
+              <img
+                src={logo}
+                alt="Apex Legal Partners Logo"
+                className="logo-img"
+              />
+            </Link>
           </div>
 
           <button className="menu-btn" onClick={() => setOpen(!Open)}>
