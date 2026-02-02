@@ -36,12 +36,12 @@
 }
 
 .practice-search input {
-  width: 300px;
+  width: 280px;
   border-radius: 10px;
   border: 1px solid grey;
   text-align: center;
   padding: 12px;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .practice-cards {

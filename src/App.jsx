@@ -5,6 +5,7 @@ import Home from "./Pages/Home.jsx";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import PracticeAreas from "./Pages/PracticeAreas.jsx";
 import Footer from "./Components/Footer.jsx";
+import Contact from "./Pages/Contact.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/practice-areas" element={<PracticeAreas />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
