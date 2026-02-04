@@ -52,7 +52,7 @@
 .about-hero-card {
   width: 100%;
   max-width: 900px;
-  background-image: url("src/assets/images/About-Hero-Img.jpg");
+  background-image: url("../src/assets/images/About-Hero.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 16px;
