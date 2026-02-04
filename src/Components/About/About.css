@@ -1,0 +1,282 @@
+.about-main-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  background: #f4f5f7;
+}
+
+/* ===============================
+   ABOUT – GLOBAL
+================================ */
+.about-hero,
+.about-stats,
+.about-pillars,
+.about-timeline,
+.about-cta {
+  padding: 4rem 1.25rem;
+}
+
+.about-hero h1,
+.about-pillars h1,
+.about-timeline h1,
+.about-cta h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about-hero h4 {
+  color: #fff;
+  font-size: 1.25rem;
+  background: rgba(70, 76, 102, 0.6);
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+}
+
+.about-pillars h3,
+.about-timeline h4 {
+  color: #2563eb;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ===============================
+   ABOUT HERO
+================================ */
+.about-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.about-hero-card {
+  width: 100%;
+  max-width: 900px;
+  background-image: url("src/assets/images/About-Hero-Img.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 4rem 2rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.65);
+}
+
+.about-hero-card * {
+  position: relative;
+  z-index: 1;
+}
+
+.about-hero-card p {
+  margin: 1.25rem 0 2rem;
+  max-width: 520px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ===============================
+   ABOUT STATS
+================================ */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.stat-card {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-card h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.stat-card p {
+  color: #475569;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* ===============================
+   ABOUT PILLARS
+================================ */
+.about-pillars {
+  text-align: center;
+  background: #fff;
+
+  .just-change {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #475569;
+  }
+}
+
+.pillars-intro {
+  max-width: 700px;
+  margin: 1rem auto 3rem;
+  color: #475569;
+}
+
+.pillars-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pillar-card {
+  background: #e0e7ff;
+  padding: 2rem 1.5rem;
+  border-radius: 14px;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(74, 16, 211, 0.4);
+  transition: all 0.3s ease;
+}
+
+.pillar-card p {
+  margin-top: 1rem;
+  color: #475569;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.pillar-card svg {
+  color: #2563eb;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1rem;
+}
+
+/* ===============================
+   ABOUT TIMELINE (EVOLUTION)
+================================ */
+.about-timeline {
+  background: #020617;
+  color: #fff;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline-item.left {
+  justify-content: flex-start;
+}
+
+.timeline-item.right {
+  justify-content: flex-end;
+}
+
+.timeline-content {
+  background: #0f172a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 20%;
+  max-width: 420px;
+}
+
+.timeline-content h3 {
+  color: #475569;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2563eb;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.timeline-icon svg {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+/* ===============================
+   ABOUT CTA
+================================ */
+.about-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-card {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.cta-card p {
+  margin: 1rem 0 2rem;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .pillars-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
