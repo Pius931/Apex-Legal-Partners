@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link to="/practice-areas">Practice Areas</Link>
             </li>
             <li>
-              <Link to="/team">Attorneys/Team</Link>
+              <Link to="/attorneys">Attorneys/Team</Link>
             </li>
             <li>
               <Link to="/contact">Contact us</Link>
