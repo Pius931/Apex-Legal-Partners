@@ -8,6 +8,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [Open, setOpen] = useState(false);
 
+  //function closes menu when nav links clicked
+  const closeMenu = () => setOpen(false);
+
   //Disable scrolling when menu is open
   useEffect(() => {
     if (Open) {
@@ -37,19 +40,29 @@ const Navbar = () => {
 
           <ul className={`nav-links ${Open ? "open" : ""}`}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={closeMenu}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about" onClick={closeMenu}>
+                About Us
+              </Link>
             </li>
             <li>
-              <Link to="/practice-areas">Practice Areas</Link>
+              <Link to="/practice-areas" onClick={closeMenu}>
+                Practice Areas
+              </Link>
             </li>
             <li>
-              <Link to="/attorneys">Attorneys/Team</Link>
+              <Link to="/attorneys" onClick={closeMenu}>
+                Attorneys/Team
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact" onClick={closeMenu}>
+                Contact us
+              </Link>
             </li>
           </ul>
         </div>
