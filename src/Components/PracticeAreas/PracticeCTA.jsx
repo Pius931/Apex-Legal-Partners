@@ -1,5 +1,6 @@
 import React from "react";
 import "./PracticeAreas.css";
+import { Link } from "react-router-dom";
 
 const PracticeCTA = () => {
   return (
@@ -13,8 +14,9 @@ const PracticeCTA = () => {
         </p>
 
         <div className="cta-buttons">
-          <button className="primary-btn">Book Free Consultation</button>
-
+          <Link to="/contact">
+            <button className="primary-btn">Book Free Consultation</button>
+          </Link>
           <button className="secondary-btn"> +1 (234) 567-890</button>
         </div>
       </section>
