@@ -3,6 +3,14 @@ import AttorneysHero from "../Components/Attorneys/AttorneysHero";
 import AttorneySearch from "../Components/Attorneys/AttorneySearch";
 import AttorneysGrid from "../Components/Attorneys/AttorneysGrid";
 import "../Components/Attorneys/Attorneys.css";
+import Attorney1Img from "../assets/images/Attorney-img-1.png";
+import Attorney2Img from "../assets/images/Attorney-img-2.png";
+import Attorney3Img from "../assets/images/Attorney-img-3.png";
+import Attorney4Img from "../assets/images/Attorney-img-4.png";
+import Attorney5Img from "../assets/images/Attorney-img-5.png";
+import Attorney6Img from "../assets/images/Attorney-img-6.png";
+import Attorney7Img from "../assets/images/Attorney-img-7.png";
+import Attorney8Img from "../assets/images/Attorney-img-8.png";
 
 const Attorneys = () => {
   // list of attorneys (temporary data)
@@ -12,56 +20,56 @@ const Attorneys = () => {
       name: "Michael Carter",
       role: "Senior Partner",
       practice: "Corporate Law",
-      image: "/images/attorney1.jpg",
+      image: Attorney1Img,
     },
     {
       id: 2,
       name: "Sarah Mitchell",
       role: "Criminal Defense Attorney",
       practice: "Criminal Defence",
-      image: "/images/attorney2.jpg",
+      image: Attorney2Img,
     },
     {
       id: 3,
       name: "David Chen",
       role: "Family Law Specialist",
       practice: "Family Law",
-      image: "/images/attorney3.jpg",
+      image: Attorney3Img,
     },
     {
       id: 4,
       name: "Laura Bennett",
       role: "Litigation Expert",
       practice: "Personal Injury",
-      image: "/images/attorney4.jpg",
+      image: Attorney4Img,
     },
     {
       id: 5,
       name: "James Wilson",
       role: "Property Attorney",
       practice: "Real Estate Law",
-      image: "/images/attorney5.jpg",
+      image: Attorney5Img,
     },
     {
       id: 6,
       name: "Emily Rodriguez",
       role: "IP Consultant",
       practice: "Intellectual Property",
-      image: "/images/attorney6.jpg",
+      image: Attorney6Img,
     },
     {
       id: 7,
       name: "Robert King",
       role: "Employment Lawyer",
       practice: "Employment Law",
-      image: "/images/attorney7.jpg",
+      image: Attorney7Img,
     },
     {
       id: 8,
       name: "Olivia Harper",
       role: "Estate Planner",
       practice: "Estate Planning",
-      image: "/images/attorney8.jpg",
+      image: Attorney8Img,
     },
   ];
 
