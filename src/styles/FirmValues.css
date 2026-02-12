@@ -92,3 +92,15 @@
   border-radius: 8px;
   font-weight: 600;
 }
+
+@media (min-width: 768px) {
+  .firm-values {
+    max-width: 100%;
+  }
+
+  .values-intro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}

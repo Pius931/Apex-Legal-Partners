@@ -102,4 +102,8 @@ h3 {
   .practice-preview-cards {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .practice-preview {
+    max-width: 100%;
+  }
 }

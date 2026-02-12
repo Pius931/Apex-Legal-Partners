@@ -125,3 +125,62 @@
   background: blue;
   color: white;
 }
+
+/* TABLET & DESKTOP */
+@media (min-width: 768px) {
+  .attorneys-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .hero-text {
+    flex: 1;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+    color: #121212;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .hero-stat-card {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .hero-stat-card img {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+  }
+
+  .stat-badge {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  /* SEARCH */
+  .attorney-search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .attorney-search input {
+    width: 50%;
+  }
+
+  /* ATTORNEYS */
+
+  .attorneys-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}

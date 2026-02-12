@@ -22,16 +22,6 @@ const ContactInfo = () => {
           <strong>Main Phone</strong>
           <p>+1 (555) 000-1234</p>
         </div>
-
-        <div className="info-block">
-          <strong>Toll-Free</strong>
-          <p>800-LEGAL-PRO</p>
-        </div>
-
-        <div className="info-block">
-          <strong>Email</strong>
-          <p>inquiries@legalpractice.com</p>
-        </div>
       </section>
     </div>
   );

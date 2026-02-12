@@ -10,9 +10,16 @@ const Contact = () => {
   return (
     <div className="main-contact-page">
       <ContactHero />
-      <ContactForm />
-      <ContactInfo />
-      <BusinessHours />
+      <div className="contact-layout">
+        <div className="left">
+          <ContactForm />
+        </div>
+        <div className="right">
+          <ContactInfo />
+          <BusinessHours />
+        </div>
+      </div>
+
       <ContactMap />
     </div>
   );

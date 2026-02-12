@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,7 +18,9 @@ const Hero = () => {
               Apex Legal Partners provides expert legal representation with
               integrity and professionalism.
             </p>
-            <button className="hero-btn">Get Legal Help</button>
+            <Link to="/contact">
+              <button className="hero-btn">Get Legal Help</button>
+            </Link>
           </div>
         </div>
       </section>

@@ -188,24 +188,48 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534);
 }
 
-/* =========================
-   TABLET & UP
-========================= */
+.contact-layout {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 @media (min-width: 768px) {
   .contact-hero h1 {
     font-size: 2.5rem;
   }
 
-  .contact-form-card,
-  .contact-info-card,
-  .business-hours-card {
-    max-width: 700px;
+  .contact-info-card {
+    max-width: 350px;
     margin: 2rem auto;
+  }
+
+  .business-hours-card {
+    margin-top: -1em;
+    margin-bottom: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534);
   }
 
   .contact-map {
     max-width: 900px;
     margin: 2rem auto;
+  }
+
+  /*start here*/
+  .contact-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .left {
+    flex: 2;
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 }
