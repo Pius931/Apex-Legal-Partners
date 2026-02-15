@@ -7,6 +7,7 @@ const AttorneySearch = ({ searchTerm, setSearchTerm }) => {
       <section className="attorney-search">
         <input
           type="text"
+          name="search_attorney"
           placeholder="Search by area of practice..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}

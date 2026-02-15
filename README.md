@@ -1,16 +1,63 @@
-# React + Vite
+# Apex Legal Partners
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive law firm website built with React and Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+**[View Live Project](https://apex-legal-partners.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Multi-page Routing:** Seamless navigation using React Router.
+- **Responsive Design:** Fully optimized for all devices (Mobile → Tablet → Desktop).
+- **Reusable Components:** Modular architecture for buttons, cards, and sections.
+- **Contact Form:** Fully functional messaging powered by **EmailJS**.
+- **User Experience:** Automatic "Scroll to Top" on route changes and interactive navigation.
+- **Professional Layout:** High-end aesthetic tailored for legal and corporate branding.
+
+---
+
+## Tech Stack
+
+- **React** (Vite)
+- **React Router DOM**
+- **CSS3** (Custom Styles)
+- **EmailJS** (API Integration)
+- **Lucide React** (Icons)
+
+---
+
+## Pages
+
+- **Home:** Overview of the firm's values and expertise.
+- **About:** The firm's evolution and timeline.
+- **Practice Areas:** Detailed look at legal services offered.
+- **Attorneys:** Profiles of the legal team.
+- **Contact:** Interactive form for client inquiries.
+
+---
+
+## Run Locally
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/Pius931/Apex-Legal-Partners]
+   ```
+2. **Install Dependencies**  
+   npm install
+3. **Start the dev server**  
+   npm run dev
+   ```
+
+   ```
+
+---
+
+## Author
+
+- **Pius Olumide**
+  Frontend dev

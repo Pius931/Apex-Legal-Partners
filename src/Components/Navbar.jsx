@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
 
           <button className="menu-btn" onClick={() => setOpen(!Open)}>
-            ☰
+            {Open ? "✕" : "☰"}
           </button>
 
           <ul className={`nav-links ${Open ? "open" : ""}`}>

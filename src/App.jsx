@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useStat } from "react";
 import Navbar from "./Components/Navbar.jsx";
 import "./App.css";
 import Home from "./Pages/Home.jsx";
@@ -8,15 +8,16 @@ import Footer from "./Components/Footer.jsx";
 import Contact from "./Pages/Contact.jsx";
 import About from "./Pages/About.jsx";
 import Attorneys from "./Pages/Attorneys.jsx";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/practice-areas" element={<PracticeAreas />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/attorneys" element={<Attorneys />} />

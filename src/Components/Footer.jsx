@@ -31,7 +31,7 @@ const Footer = () => {
                 <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <Link to="/privacy-policy">Privacy Policy</Link>
+                <Link to="#">Privacy Policy</Link>
               </li>
             </ul>
           </div>
@@ -56,7 +56,11 @@ const Footer = () => {
             <p>Stay updated with legal insights.</p>
 
             <div className="newsletter">
-              <input type="email" placeholder="Email address" />
+              <input
+                type="email"
+                name="footer_newsletter"
+                placeholder="Email address"
+              />
               <button>Subscribe</button>
             </div>
           </div>
@@ -68,8 +72,8 @@ const Footer = () => {
           <span>© 2026 Apex Legal Partners. All rights reserved.</span>
 
           <div className="footer-legal">
-            <Link to="/legal-disclaimer">Legal Disclaimer</Link>
-            <Link to="/terms">Terms of Service</Link>
+            <Link to="#">Legal Disclaimer</Link>
+            <Link to="#">Terms of Service</Link>
           </div>
         </div>
       </footer>

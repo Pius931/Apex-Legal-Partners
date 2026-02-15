@@ -7,6 +7,7 @@ const PracticeSearch = ({ searchInput, setSearchInput }) => {
       <section className="practice-search">
         <input
           type="text"
+          name="legal_service_search"
           placeholder="find a Specific legal service or speciality..."
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}

@@ -127,12 +127,12 @@
 .about-pillars {
   text-align: center;
   background: #fff;
+}
 
-  .just-change {
-    font-weight: bold;
-    font-size: 0.9em;
-    color: #475569;
-  }
+.about-pillars .just-change {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #475569;
 }
 
 .pillars-intro {
@@ -215,7 +215,8 @@
   background: #0f172a;
   padding: 1.5rem;
   border-radius: 12px;
-  width: 20%;
+  width: 25%;
+
   max-width: 420px;
 }
 
@@ -262,9 +263,6 @@
   margin: 1rem 0 2rem;
 }
 
-/* ===============================
-   RESPONSIVE
-================================ */
 @media (min-width: 768px) {
   .stats-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -272,6 +270,28 @@
 
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline-content {
+    width: 42%;
+  }
+
+  .timeline-item.left .timeline-content {
+    text-align: right;
+    margin-right: auto;
+  }
+
+  .timeline-item.right .timeline-content {
+    text-align: left;
+    margin-left: auto;
+  }
+
+  .timeline-item {
+    width: 100%;
+  }
+
+  .timeline-item.right .timeline-icon {
+    margin-bottom: 30px;
   }
 }
 
