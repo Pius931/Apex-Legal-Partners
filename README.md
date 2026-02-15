@@ -47,12 +47,13 @@ A modern, responsive law firm website built with React and Vite.
    ```bash
    git clone [https://github.com/Pius931/Apex-Legal-Partners]
    ```
-2. **Install Dependencies**  
+2. **Install Dependencies**
+   ```bash
    npm install
-3. **Start the dev server**  
-   npm run dev
    ```
-
+3. **Start the dev server**
+   ```bash
+   npm run dev
    ```
 
 ---
