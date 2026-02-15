@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  max-width: 1200px;
+  max-width: 1200px; /*test*/
   margin: 0 auto 40px;
 }
 
