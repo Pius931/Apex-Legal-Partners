@@ -61,4 +61,4 @@ A modern, responsive law firm website built with React and Vite.
 ## Author
 
 - **Pius Olumide**
-  Frontend dev
+
